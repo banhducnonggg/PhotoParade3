@@ -14,6 +14,15 @@
 		E199A8E42BA0419A004249AC /* PhotoParade3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A8E32BA0419A004249AC /* PhotoParade3Tests.swift */; };
 		E199A8EE2BA0419A004249AC /* PhotoParade3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A8ED2BA0419A004249AC /* PhotoParade3UITests.swift */; };
 		E199A8F02BA0419A004249AC /* PhotoParade3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A8EF2BA0419A004249AC /* PhotoParade3UITestsLaunchTests.swift */; };
+		E199A9012BA04237004249AC /* photoParade.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A9002BA04237004249AC /* photoParade.swift */; };
+		E199A9042BA0426B004249AC /* photoParadeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A9032BA0426B004249AC /* photoParadeData.swift */; };
+		E199A9062BA042C1004249AC /* CardNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A9052BA042C1004249AC /* CardNav.swift */; };
+		E199A9082BA042D0004249AC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A9072BA042D0004249AC /* CardView.swift */; };
+		E199A90D2BA78EE9004249AC /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A90C2BA78EE9004249AC /* GuideComponent.swift */; };
+		E199A90F2BA795CB004249AC /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A90E2BA795CB004249AC /* GuideView.swift */; };
+		E199A9112BA7B83E004249AC /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A9102BA7B83E004249AC /* infoView.swift */; };
+		E199A9132BA8BFAD004249AC /* PhotoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A9122BA8BFAD004249AC /* PhotoFetcher.swift */; };
+		E199A9172BABFDF2004249AC /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199A9162BABFDF2004249AC /* ActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E10AD4242BB0B21700C56045 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		E199A8CF2BA04197004249AC /* PhotoParade3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoParade3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E199A8D22BA04197004249AC /* PhotoParade3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoParade3App.swift; sourceTree = "<group>"; };
 		E199A8D42BA04197004249AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,15 @@
 		E199A8E92BA0419A004249AC /* PhotoParade3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoParade3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E199A8ED2BA0419A004249AC /* PhotoParade3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoParade3UITests.swift; sourceTree = "<group>"; };
 		E199A8EF2BA0419A004249AC /* PhotoParade3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoParade3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E199A9002BA04237004249AC /* photoParade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoParade.swift; sourceTree = "<group>"; };
+		E199A9032BA0426B004249AC /* photoParadeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoParadeData.swift; sourceTree = "<group>"; };
+		E199A9052BA042C1004249AC /* CardNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNav.swift; sourceTree = "<group>"; };
+		E199A9072BA042D0004249AC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E199A90C2BA78EE9004249AC /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		E199A90E2BA795CB004249AC /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		E199A9102BA7B83E004249AC /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
+		E199A9122BA8BFAD004249AC /* PhotoFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFetcher.swift; sourceTree = "<group>"; };
+		E199A9162BABFDF2004249AC /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +113,14 @@
 		E199A8D12BA04197004249AC /* PhotoParade3 */ = {
 			isa = PBXGroup;
 			children = (
+				E199A90B2BA78EAB004249AC /* Components */,
 				E199A8D22BA04197004249AC /* PhotoParade3App.swift */,
-				E199A8D42BA04197004249AC /* ContentView.swift */,
+				E199A9022BA0423B004249AC /* Model */,
+				E199A8FF2BA04221004249AC /* Data */,
+				E199A8FC2BA041F9004249AC /* View */,
 				E199A8D62BA04199004249AC /* Assets.xcassets */,
 				E199A8D82BA04199004249AC /* Preview Content */,
+				E10AD4242BB0B21700C56045 /* info.plist */,
 			);
 			path = PhotoParade3;
 			sourceTree = "<group>";
@@ -125,6 +148,44 @@
 				E199A8EF2BA0419A004249AC /* PhotoParade3UITestsLaunchTests.swift */,
 			);
 			path = PhotoParade3UITests;
+			sourceTree = "<group>";
+		};
+		E199A8FC2BA041F9004249AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E199A8D42BA04197004249AC /* ContentView.swift */,
+				E199A9102BA7B83E004249AC /* infoView.swift */,
+				E199A9162BABFDF2004249AC /* ActivityViewController.swift */,
+				E199A9072BA042D0004249AC /* CardView.swift */,
+				E199A9052BA042C1004249AC /* CardNav.swift */,
+				E199A90E2BA795CB004249AC /* GuideView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E199A8FF2BA04221004249AC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E199A9032BA0426B004249AC /* photoParadeData.swift */,
+				E199A9122BA8BFAD004249AC /* PhotoFetcher.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E199A9022BA0423B004249AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E199A9002BA04237004249AC /* photoParade.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E199A90B2BA78EAB004249AC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E199A90C2BA78EE9004249AC /* GuideComponent.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E199A90F2BA795CB004249AC /* GuideView.swift in Sources */,
+				E199A90D2BA78EE9004249AC /* GuideComponent.swift in Sources */,
 				E199A8D52BA04197004249AC /* ContentView.swift in Sources */,
 				E199A8D32BA04197004249AC /* PhotoParade3App.swift in Sources */,
+				E199A9062BA042C1004249AC /* CardNav.swift in Sources */,
+				E199A9012BA04237004249AC /* photoParade.swift in Sources */,
+				E199A9082BA042D0004249AC /* CardView.swift in Sources */,
+				E199A9172BABFDF2004249AC /* ActivityViewController.swift in Sources */,
+				E199A9132BA8BFAD004249AC /* PhotoFetcher.swift in Sources */,
+				E199A9112BA7B83E004249AC /* infoView.swift in Sources */,
+				E199A9042BA0426B004249AC /* photoParadeData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,16 +489,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoParade3/PhotoParade3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoParade3/Preview Content\"";
+				DEVELOPMENT_TEAM = TQ96JRLT96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoParade3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoParade;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow us to remove your unwanted memories and free up your space.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to your photo library is needed to select photos for displaying your memories within the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,16 +525,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoParade3/PhotoParade3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoParade3/Preview Content\"";
+				DEVELOPMENT_TEAM = TQ96JRLT96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoParade3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PhotoParade;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow us to remove your unwanted memories and free up your space.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to your photo library is needed to select photos for displaying your memories within the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +563,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQ96JRLT96;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -496,6 +583,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQ96JRLT96;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -514,6 +602,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQ96JRLT96;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = monocromo.PhotoParade3UITests;
@@ -531,6 +620,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TQ96JRLT96;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = monocromo.PhotoParade3UITests;

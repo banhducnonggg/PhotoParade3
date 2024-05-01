@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "_DSF4084-Enhanced-NR.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "_DSF4084-Enhanced-NR 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "_DSF4084-Enhanced-NR 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
